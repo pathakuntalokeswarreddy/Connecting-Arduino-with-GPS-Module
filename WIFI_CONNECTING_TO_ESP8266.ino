@@ -1,11 +1,11 @@
 // Wi-Fi Credentials
-//const char* ssid = "How r you";
-//const char* password = "finuuuuu";
+//const char* ssid = "****";
+//const char* password = "****";
 
 #include <ESP8266WiFi.h>
 
-const char* ssid = "How r you";
-const char* password = "finuuuuu";
+const char* ssid = "****";
+const char* password = "****";
 
 void connectAWS() {
     Serial.println("Setting up AWS certificates...");
