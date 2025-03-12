@@ -13,14 +13,14 @@ static const int RXPin = 4, TXPin = 5;
 SoftwareSerial gpsSerial(RXPin, TXPin);
 
 // WiFi credentials
-const char WIFI_SSID[] = "realme 9 Pro 5G";
-const char WIFI_PASSWORD[] = "w4534w87";
+const char WIFI_SSID[] = "****";
+const char WIFI_PASSWORD[] = "****";
 
 // Device name from AWS
 const char THINGNAME[] = "ESP8266";
 
 // MQTT broker host address from AWS
-const char MQTT_HOST[] = "a38y1e4m0vzu5f-ats.iot.ap-south-1.amazonaws.com";
+const char MQTT_HOST[] = "********";
 
 // MQTT topics
 const char AWS_IOT_PUBLISH_TOPIC[] = "esp8266/pub";
